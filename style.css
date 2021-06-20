@@ -71,6 +71,10 @@
     font-family: Avant;
     src: url(Fonts/AVGARDD_2.TTF);
 }
+@font-face {
+    font-family:AvantB;
+    src: url(Fonts/avgb.TTF);
+}
 nav{
     position: absolute;
    
@@ -108,6 +112,7 @@ nav a{
 nav a:hover{
     transform: scale(1.1);
     color: #ffcd23;
+    text-shadow: 0.1em 0.1em 0.2em black
 }
 
 .YellowCont{
@@ -121,5 +126,190 @@ margin-left: 15px;
   margin-bottom: 300px;
   width: auto;
 }
+.grupo1{
+    
+        background-color: transparent;
+        height: 218px;
+        left: 679px;
+        position: absolute;
+        top: 418px;
+        width: 562px;
+    
+}
+.wdyw{
+    background-color: transparent;
+    color: white;
+    font-family: Avant;
+    font-size: 50px;
+    font-style:normal;
+    font-weight: 400;
+    height: 62px;
+    left: 53px;
+    letter-spacing: 0.00px;
+    line-height: 50px;
+    top: 0px;
+    white-space: nowrap;
+    width: calc(100.00% - 105px);
+    text-align: center;
+    margin-top: 60px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.61)
+}
+body{
+    background-color: #ffcd23;
+}
+.cont{
+    width: 100%;
+   
+}
+#row2{
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+   .oqdsj{
+    background-color: transparent;
+    color: white;
+    opacity: 75%;
+  
+    font-size: 30px;
+    font-style:normal;
+    font-weight:lighter;
+    height: 62px;
+    left: 53px;
+    letter-spacing: 0.00px;
+    line-height: 50px;
+    top: 0px;
+    white-space: nowrap;
+    width: calc(100.00% - 105px);
+    text-align: center;
+    margin-top: -20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
 
 
+   }
+
+.barraPesquisa{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 47px;
+    bottom: 0px;
+    height: 80px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 10px;
+    transition: all 0.2s ease;
+    box-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.pesquisa{
+    
+    background-color: transparent;
+    border: 0;
+    color: black;
+    
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    height: 50px;
+    left: 325px;
+    letter-spacing: 1.60px;
+    line-height: 40px;
+    width: 350px;
+
+outline: 0;
+    resize: none;
+    text-align: left;
+    top: 320px;
+    white-space: nowrap;
+  margin-top: 10px;
+margin-left: 25px;
+}
+
+.retanSubmit{
+    background-color: white;
+    border: 1px solid #dec366;
+    border-radius: 47px;
+    height: 75px;
+    left: 0px;
+    
+    top: 0px;
+    width: 100%;
+    margin-top: -28px;
+}
+
+.imgSearch{
+    background-color: transparent;
+    /* height: calc(100.00% - 39px); */
+    left: 18px;
+    /* object-fit: cover; */
+    top: 20px;
+    width: 40px;
+    margin-top: -60%;
+    margin-left: -60%;
+}
+.btnSubmit{
+    background-color: transparent;
+    height: 85px;
+   
+    pointer-events: auto;
+    list-style: none;
+    /* top: 48%; */
+    transition: all 0.2s ease;
+    width: 160px;
+    /* margin-right: 100px; */
+    position: absolute;
+    right: 26.5%;
+    border: none;
+}
+.btnSubmit:hover{
+    transform: scale(1.1);
+}
+.Buscar{
+    -webkit-text-stroke: 1px var(--black);
+    background-color: transparent;
+    bottom: calc(48.11% - 15px);
+    color: black;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.00px;
+    line-height: 25px;
+    /* right: calc(26.21% - 20px); */
+    text-align: left;
+    white-space: nowrap;
+    width: 76px;
+    padding-bottom: -40px;
+    margin-top: -70px;
+    margin-left: 55px;
+}
+
+.result{
+    margin-top: 30px;
+    color: black;
+    font-size: 40px;
+    visibility:hidden;
+    font-family: Avant;
+}
+.example{
+    margin-top: 30px;
+    color: rgb(80, 74, 74);
+    font-size: 35px;
+    visibility:hidden;
+    font-style: oblique;
+}
+
+#Sugestoes{
+
+opacity: 0%;
+
+
+}
