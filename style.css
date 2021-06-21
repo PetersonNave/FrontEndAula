@@ -313,3 +313,22 @@ opacity: 0%;
 
 
 }
+
+.Foot{
+   
+    font-style: Avant;
+    font-size: 30px;
+ 
+    color: white;
+    padding: 150px
+
+}
+Body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+   
+}
+footer{
+    margin-top: 700px;
+}
